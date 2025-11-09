@@ -10,4 +10,5 @@ Thumbs.db
 dist/
 venv
 src/__pycache__
+src/*.egg-info
 TODO.py
