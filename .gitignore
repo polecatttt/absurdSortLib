@@ -11,3 +11,4 @@ dist/
 pyproject.toml
 venv
 src/__pycache__
+TODO.py
