@@ -29,3 +29,4 @@ license = "MIT"
 keywords = ["sort", "joke", "sorting"]
 
 [project.urls]
+Repository = "https://github.com/polecatttt/absurdSortLib.git"
