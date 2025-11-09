@@ -12,17 +12,17 @@ def stalinsort(lst: list[num]) -> list[num]:
         if n > sort[-1]:
             sort.append(n)
 
-    return sort
+    lst = sort
+    return lst
 
 
 def bogosort(lst: list[num]) -> list[num]:
     """Randomly shuffles all items until sorted"""
 
-    sort = lst
-    while sort != sorted(lst):
-        shuffle(sort)
+    while lst != sorted(lst):
+        shuffle(lst)
 
-    return sort
+    return lst
 
 
 def intelligentdesignsort(lst: list[num]) -> list[num]:
@@ -34,11 +34,10 @@ def intelligentdesignsort(lst: list[num]) -> list[num]:
 def miraclesort(lst: list[num]) -> list[num]:
     """Wait for a miracle to happen"""
 
-    sort = lst
-    while sort != sorted(lst):
+    while lst != sorted(lst):
         sleep(1)
 
-    return sort
+    return lst
 
 
 def movinggoalpostsort(lst: list[num]) -> str:
@@ -61,38 +60,37 @@ def internsort(lst: list[num]) -> list[num]:
 def orwellsort(lst: list[num]) -> list[num]:
     """Oceania allows no individuality."""
 
-    return [1 for _ in lst]
+    lst = [1 for _ in lst]
+    return lst
 
 
 def monkeysort(lst: list[num], printOutput: bool = False) -> list[num]:
     """Shakespeares Monkeys can do the work"""
 
-    monkeyLst = []
-    while monkeyLst != sorted(lst):
-        monkeyLst = [
-            uniform(float(sorted(lst)[0]), float(sorted(lst)[-1])) for _ in lst
-        ]
+    while lst != sorted(lst):
+        lst = [uniform(float(sorted(lst)[0]), float(sorted(lst)[-1])) for _ in lst]
 
         if printOutput:
-            print(monkeyLst)
+            print(lst)
 
-    return monkeyLst
+    return lst
 
 
 def zerosort(lst: list[num]) -> list[num]:
     """The list is sorted if all numbers are multiplied by 0!"""
 
-    return [int(n * 0) for n in lst]
+    lst = [int(n * 0) for n in lst]
+    return lst
 
 
 def smallchildsort(lst: list[num], giveCandy: bool = False) -> str:
     """Why are you giving the list to a small child????"""
 
-    smallChildsMasterpiece = sorted(lst)
+    lst = sorted(lst)
     if not giveCandy:
         return "I have the list, but I wont give it! Hmph!"
 
-    del smallChildsMasterpiece
+    del lst
     return ":000 CANDY!!!!!!!! *runs away, but drops the list, breaking it*"
 
 
