@@ -1,21 +1,21 @@
 ⚠️ ARCHIVED!
 
 moved my stuff to codeberg, this github repo wont be pushed to and maintained anymore
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 \
 # Absurd Sorting Algorithms (v1.0.0)
 these are the best on the market, completely free!
