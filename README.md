@@ -1,4 +1,4 @@
-⚠️ ARCHIVED!
+# ⚠️ ARCHIVED!
 
 moved my stuff to codeberg, this github repo wont be pushed to and maintained anymore
 \
