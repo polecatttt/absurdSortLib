@@ -1,6 +1,6 @@
 # ⚠️ ARCHIVED!
 
-moved my stuff to codeberg, this github repo wont be pushed to and maintained anymore
+moved my stuff to [codeberg](https://codeberg.org/polecat/absurdSortLib), this github repo wont be pushed to and maintained anymore
 \
 \
 \
